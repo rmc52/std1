@@ -1,0 +1,23 @@
+package jhctpj.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class stdnt {
+	
+	private int stdNo;
+	private String stdName;
+	private String stdAge;
+	private String stdGender;
+	private String score;
+
+}
